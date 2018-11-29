@@ -48,4 +48,6 @@ def omniglotTask(character_folders, num_classes, support_set_num, target_set_num
     support_set_labels = [labels[get_class(x)] for x in support_set]
     target_set_labels = [labels[get_class(x)] for x in target_set]
     
+    return support_set,target_set,support_set_labels,target_set_labels
+    
     
